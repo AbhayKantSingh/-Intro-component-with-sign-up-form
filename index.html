@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <p class="h1">Learn to code by watching others</p>
+        <p class="h2">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="right">
+        <div class="pricing">
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <form id="loginForm">
+          <input type="text" id="firstName" placeholder="First Name" />
+          <small class="error-msg"></small>
+          <input type="text" id="lastName" placeholder="Last Name" />
+          <small class="error-msg"></small>
+          <input type="email" id="email" placeholder="Email Address" />
+          <small class="error-msg"></small>
+          <input type="password" id="password" placeholder="Password" />
+          <small class="error-msg"></small>
+          <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          <p class="terms">
+            By clicking the button, you are agreeing to our<a
+              class="tc"
+              href="#"
+              >Terms and Services</a
+            >
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/AbhayKantSingh">Abhay</a>.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
